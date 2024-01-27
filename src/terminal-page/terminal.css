@@ -1,0 +1,65 @@
+
+input{
+    font-size: 1.2vw;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+    background-color: transparent;
+    color: white;
+    caret-shape: block !important;
+}
+
+.terminal{
+    font-size: 1.2vw;
+    max-width: 60%;
+    color:white;
+    padding-left: 100px;
+    white-space: pre-line;
+}
+
+.container-fluid{
+    overflow: auto;
+}
+
+.text{
+    max-width: 85%;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+    font-size: 1.4vw;
+    margin-bottom: 30px;
+}
+
+.chars {
+    font-size: 1.1vw;
+    white-space: pre;
+    color: #ffffff;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  
+    /* steps needs to equal the exact amount of characters in the paragraph. See https://wordcounter.net/character-count for easy counting. */
+  
+    animation: typing 4s steps(124), cursor 0.4s step-end infinite alternate;
+  }
+  
+  @keyframes cursor {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+
+  .Lucas{
+    font-size: 2.5vw;
+  }
+
+  .cd{
+    font-size: 1.4vw;
+  }
+  
