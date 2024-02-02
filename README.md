@@ -14,7 +14,7 @@ This project is a personal portfolio built using React, simulating a bash termin
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/react-terminal-portfolio.git
+   git clone https://github.com/lexO-dat/react-terminal-portfolio.git
    ```
 2. Navigate to the project directory:
 
