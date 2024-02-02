@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# React Terminal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a personal portfolio built using React, simulating a bash terminal. The portfolio includes a landing page with static content and a terminal mode where users can interact with the portfolio by typing commands. The terminal allows navigation through folders, listing folder contents, reading files, executing scripts, and more.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+### Prerequisites
 
-### `npm start`
+- Node.js installed
+- npm (Node Package Manager) installed
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/your-username/react-terminal-portfolio.git
+   ```
+2. Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   cd react-terminal-portfolio
+   ```
+3. Install dependencies:
 
-### `npm run build`
+   ```bash
+   npm install
+   ```
+### Running the Application
+Start the React development server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ```bash
+  npm start
+  ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open your browser and visit http://localhost:3000 to view the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Project Structure
 
-### `npm run eject`
+This React application follows a modular structure with the following key components and files:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **`src/App.js`**: Main component defining the routes and structure of the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **`src/index.js`**: Entry point of the application rendering the `App` component.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **`src/terminal-page/terminal.js`**: Terminal component containing the logic for handling commands, navigation, and displaying terminal interface.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **`src/components/static/home.js`**: Landing page component with static content.
 
-## Learn More
+- **`src/App.css` and `src/terminal-page/terminal.css`**: CSS files for styling.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  # Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This React terminal portfolio comes with the following key features:
 
-### Code Splitting
+- **Terminal Interface:** Simulates a bash terminal, providing a command-line interface for interaction.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Navigation:** Use the `cd` command to navigate through folders within the terminal.
 
-### Analyzing the Bundle Size
+- **Command List:** Type `ls` to list the contents of the current folder, providing an overview of available directories and files.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **File Reading:** Utilize the `cat` command to read the contents of a specific file, allowing users to access detailed information.
 
-### Making a Progressive Web App
+- **Script Execution:** Execute scripts using the `./[script.sh]` command, enabling the running of custom scripts or commands.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Help Command:** Type `help` within the terminal to display a list of available commands, providing users with guidance on how to interact with the portfolio.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
